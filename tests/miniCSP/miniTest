@@ -1,0 +1,15 @@
+6
+1 a
+2 a b c d
+3 c
+4 b c
+5 b c d
+6 b c d
+c 0 a 1 2 a b a c a d
+c 0 a 2 3 d c
+c 0 a 4 2 b c b d c d
+c 0 a 2 5 b b c c d d
+c 0 a 2 6 b b c c d d
+c 0 a 6 5 b b c c d d
+c 1 r 2 3
+c 2 a 2 3 d c

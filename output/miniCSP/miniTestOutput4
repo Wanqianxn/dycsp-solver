@@ -1,0 +1,84 @@
+---CSP Parameters---
+
+Variables: [1, 2, 3, 4, 5, 6]
+
+Domains: 
+1: ['a']
+2: ['a', 'b', 'c', 'd']
+3: ['c']
+4: ['b', 'c']
+5: ['b', 'c', 'd']
+6: ['b', 'c', 'd']
+
+Dynamic arc consistency algorithm used: DnAC-4
+
+---Time: t = 0---
+
+Adding constraint (1, 2)...
+Adding constraint (3, 2)...
+Adding constraint (2, 6)...
+Adding constraint (5, 6)...
+Adding constraint (4, 2)...
+Adding constraint (2, 5)...
+
+Valid values after arc consistency check:
+1: a
+2: d
+3: c
+4: c, b
+5: d
+6: d
+
+Complete assignment from backtracking search:
+1: a
+2: d
+3: c
+4: b
+5: d
+6: d
+
+---Time: t = 1---
+
+Relaxing constraint (2, 3)...
+
+Valid values after arc consistency check:
+1: a
+2: c, d
+3: c
+4: c, b
+5: c, d
+6: c, d
+
+Complete assignment from backtracking search:
+1: a
+2: d
+3: c
+4: b
+5: d
+6: d
+
+---Time: t = 2---
+
+Adding constraint (3, 2)...
+
+Valid values after arc consistency check:
+1: a
+2: d
+3: c
+4: c, b
+5: d
+6: d
+
+Complete assignment from backtracking search:
+1: a
+2: d
+3: c
+4: b
+5: d
+6: d
+
+
+
+Start time: 1512545125.03
+End time: 1512545125.03
+Time elapsed: -0.00100016593933

@@ -1,0 +1,26 @@
+10
+1 r g b
+2 r g b
+3 r g b
+4 r g b
+5 r g b
+6 r g b
+7 r g b
+8 r g b
+9 r g b
+10 r g b
+c 0 a 1 4 r g g r r b b r g b b g
+c 0 a 4 2 r g g r r b b r g b b g
+c 0 a 2 5 r g g r r b b r g b b g
+c 0 a 5 3 r g g r r b b r g b b g
+c 0 a 3 1 r g g r r b b r g b b g
+c 0 a 1 6 r g g r r b b r g b b g
+c 0 a 2 7 r g g r r b b r g b b g
+c 0 a 3 8 r g g r r b b r g b b g
+c 0 a 4 9 r g g r r b b r g b b g
+c 0 a 5 10 r g g r r b b r g b b g
+c 0 a 6 7 r g g r r b b r g b b g
+c 0 a 7 8 r g g r r b b r g b b g
+c 0 a 8 9 r g g r r b b r g b b g
+c 0 a 9 10 r g g r r b b r g b b g
+c 0 a 10 6 r g g r r b b r g b b g
