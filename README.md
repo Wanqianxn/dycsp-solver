@@ -12,6 +12,8 @@ The solver can be run with the command `python main.py input output` where `inpu
 
 Use the optional flag `--a` to choose the arc consistency algorithm to run, with `dnac4` and `dnac6` as possible arguments. The default algorithm used is DnAC-4. Use the flag `-h` for further help.
 
+Optionally, memory usage statistics can be obtained by installing the dependency `memory_profiler` with the command `pip install -U memory_profiler`. Lines 9 and 11 in `main.py` should also be uncommented.
+
 ### Creating your own input files
 
 Input files to the system should be written as such:

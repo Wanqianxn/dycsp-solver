@@ -6,9 +6,9 @@ algorithms for arc-consistency, coupled with classical backtracking search.
 
 import sys, argparse, time
 from dyCSPAgent import *
-from memory_profiler import profile
+#from memory_profiler import profile
 
-@profile
+#@profile
 def main():
     parser = argparse.ArgumentParser(description='Solve a dynamic CSP.')
     parser.add_argument('input', help='input file')
